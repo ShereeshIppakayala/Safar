@@ -1,6 +1,6 @@
 const { string, required } = require("joi");
 const mongoose = require("mongoose");
-const passportLocalMongoose = require("passport-local-mongoose").default;
+const passportLocalMongoose = require("passport-local-mongoose");
 
 
 const userSchema = new mongoose.Schema({
