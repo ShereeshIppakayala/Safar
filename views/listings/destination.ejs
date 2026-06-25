@@ -1,0 +1,177 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<section class="destination-hero d-flex align-items-center">
+  <div class="hero-overlay"></div>
+  <div class="hero-content container text-white">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <span class="eyebrow text-uppercase">Discover your next escape</span>
+        <h1 class="display-4 fw-bold mb-4">Destinations that inspire every journey</h1>
+        <p class="lead mb-4">Browse curated getaways for beach lovers, mountain explorers, city seekers, and more. Your next adventure is just a click away.</p>
+        <a href="#top-destinations" class="btn btn-primary btn-lg me-3">Explore destinations</a>
+        <a href="#travel-guide" class="btn btn-outline-light btn-lg">Travel guide</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="destination-search py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="search-card p-4 rounded-4 shadow-sm bg-white">
+          <form class="row gx-2 gy-2 align-items-center">
+            <div class="col-md-9">
+              <input type="search" class="form-control search-inp" placeholder="Search by destination, country or vibe" />
+            </div>
+            <div class="col-md-3 d-grid">
+              <button class="btn btn-dark search-btn">Find destinations</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="top-destinations" class="destinations-grid pb-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="eyebrow text-uppercase text-muted">Top Picks</span>
+      <h2 class="display-6 fw-bold">Trending destinations this season</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="New York City" />
+          <div class="card-body p-4">
+            <span class="badge bg-danger mb-2">Beach</span>
+            <h5 class="card-title">New York City</h5>
+            <p class="card-text text-muted">Golden shoreline, luxe stays, and coastal vibes just minutes from LA.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-primary fw-semibold">United States</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Tuscany Villa" />
+          <div class="card-body p-4">
+            <span class="badge bg-success mb-2">Countryside</span>
+            <h5 class="card-title">Tuscany Vineyard Villa</h5>
+            <p class="card-text text-muted">Olive groves, hilltop views, and romantic Italian charm.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-success fw-semibold">Italy</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Tokyo City" />
+          <div class="card-body p-4">
+            <span class="badge bg-info mb-2">City</span>
+            <h5 class="card-title">Tokyo Modern Escape</h5>
+            <p class="card-text text-muted">Vibrant nightlife, futuristic districts, and unforgettable city energy.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-info fw-semibold">Japan</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Phuket Villa" />
+          <div class="card-body p-4">
+            <span class="badge bg-warning mb-2">Tropical</span>
+            <h5 class="card-title">Phuket Private Villa</h5>
+            <p class="card-text text-muted">Secluded shores, island dining, and a calm tropical pace.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-warning fw-semibold">Thailand</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Banff Cabin" />
+          <div class="card-body p-4">
+            <span class="badge bg-secondary mb-2">Mountains</span>
+            <h5 class="card-title">Banff Lake Cabin</h5>
+            <p class="card-text text-muted">Clear alpine lakes, crisp air, and refuge in the Rockies.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-secondary fw-semibold">Canada</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card destination-card overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Amsterdam Canal" />
+          <div class="card-body p-4">
+            <span class="badge bg-primary mb-2">Historic</span>
+            <h5 class="card-title">Amsterdam Canal House</h5>
+            <p class="card-text text-muted">Historic streets, cozy cafes, and classic European charm.</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <span class="text-primary fw-semibold">Netherlands</span>
+              <a href="/listings" class="stretched-link text-decoration-none">View stays</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="travel-guide" class="destination-highlight py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-5">
+        <div class="highlight-card p-4 rounded-4 shadow-sm bg-white">
+          <span class="eyebrow text-uppercase text-muted">Traveler tips</span>
+          <h2 class="fw-bold mb-4">Plan smarter with travel secrets</h2>
+          <p class="mb-4">Discover insider advice, seasonal highlights, and easy planning tips for every destination type.</p>
+          <ul class="list-unstyled text-muted">
+            <li><i class="fa-solid fa-check text-primary me-2"></i>Best times to visit each destination</li>
+            <li><i class="fa-solid fa-check text-primary me-2"></i>Where to stay for the perfect experience</li>
+            <li><i class="fa-solid fa-check text-primary me-2"></i>Must-see spots and local favorites</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-4">
+          <div class="col-sm-6">
+            <div class="feature-card p-4 rounded-4 shadow-sm text-white" style="background-image:url('https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=900&q=80');">
+              <span class="badge bg-dark bg-opacity-75 mb-3">Luxury</span>
+              <h5 class="fw-bold">Private villas & retreats</h5>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="feature-card p-4 rounded-4 shadow-sm text-white" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80');">
+              <span class="badge bg-dark bg-opacity-75 mb-3">Adventure</span>
+              <h5 class="fw-bold">Outdoor escapes</h5>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="feature-card p-4 rounded-4 shadow-sm text-white" style="background-image:url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80');">
+              <span class="badge bg-dark bg-opacity-75 mb-3">Culture</span>
+              <h5 class="fw-bold">City & heritage stays</h5>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="feature-card p-4 rounded-4 shadow-sm text-white" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80');">
+              <span class="badge bg-dark bg-opacity-75 mb-3">Relax</span>
+              <h5 class="fw-bold">Beachfront escapes</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
